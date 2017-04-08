@@ -43,5 +43,7 @@ dependencies {
     compile 'cn.finalteam:galleryfinal:1.4.8.7'
     //Banner 图片轮播
     compile 'com.youth.banner:banner:1.4.9'
+    //友盟依赖
+    compile 'com.umeng.analytics:analytics:latest.integration'
 
 }
