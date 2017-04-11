@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--声明一个自定属性列表叫做TopBar-->
+    <declare-styleable name="MyTopBar">
+        <!--标题的属性-->
+        <attr name="titleTextSize" format="dimension"/>
+        <attr name="titleText" format="string" />
+        <attr name="titleTextColor" format="color"/>
+
+        <!--左侧按钮-->
+        <attr name="leftText" format="string" />
+        <attr name="leftBackground" format="color|reference" />
+        <!--右侧按钮-->
+        <attr name="rightText" format="string" />
+        <attr name="rightBackground" format="color|reference" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:my="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <com.zykj.wswyixiu.base.MyTopBar
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        my:leftBackground="@mipmap/u312"
+        my:titleText="家电维修"
+        my:titleTextColor="#00cccc"
+        my:titleTextSize="12dp"></com.zykj.wswyixiu.base.MyTopBar>
+
+    <include layout="@layout/include_line" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+    <ImageView
+        android:src=""
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+</LinearLayout>
+</LinearLayout>
