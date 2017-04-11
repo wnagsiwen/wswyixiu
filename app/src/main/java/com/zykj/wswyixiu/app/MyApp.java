@@ -7,10 +7,11 @@ import android.content.Context;
  * Created by zykj on 2017/4/8.
  */
 
-public class MyApp  extends Application{
-    @Override
+public class MyApp extends Application {
+    private Context context;
     public void onCreate() {
         super.onCreate();
+        this.context = context;
 
     }
 }
